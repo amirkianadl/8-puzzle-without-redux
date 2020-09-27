@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+.container0 {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+   
+}
+
+.cont-0 {
+    height: 100%;
+    width: 100%;
+    position: relative;;
+    background-color: #292929;
+    z-index: 2000;
+     border-radius: 20px;
+    display: block
+}
+
+.general {
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    font-size: 45px;
+    padding-top: 25px;
+    display: inline-block;
+    position: absolute;
+    border: 2px solid #808080;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s,box-shadow 0.2s;
+    font-weight: 100
+    
+    
+}
+.general:hover{
+    background-color: #333333;
+    box-shadow: 0px 0px 5px #888888
+}
+.location03 {
+ left: 25px;
+    top: 25px;
+    
+}
+
+.location13 {
+    left: 150px;
+    top: 25px
+}
+
+.location23 {
+    left: 275px;
+    top: 25px
+}
+
+.location02 {
+    top: 150px;
+    left: 25px;
+}
+
+.location12 {
+      top: 150px;
+    left: 150px;
+}
+
+.location22 {
+      top: 150px;
+    left: 275px;
+}
+
+.location01 {
+    top: 275px;
+    left: 25px;
+}
+
+.location11 {
+    left:150px;
+    top: 275px
+}
+
+.location21 {
+    left:275px;
+    top: 275px
+}
+.red{
+    color: #ff1414;
+    
+}
+.green{
+    color: #23ff23
+}
+
+.btn- {
+    position: absolute;
+    left: 50%;
+   top:100%;
+    transform: translate(-50%,50%);
+    width: 200px;
+    height: 50px;
+    background-color:#292929;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0ps solid red;
+    
+}
